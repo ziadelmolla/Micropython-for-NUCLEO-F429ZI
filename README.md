@@ -41,13 +41,14 @@ This is a guide showing how to port Micropython on the Nucleo-F429ZI and run you
  
       $ git clone https://github.com/ziadelmolla/Micropython-for-NUCLEO-F429ZI.git
       
- Go to Micropython-for-NUCLEO-F429ZI/ports/stm32 using the following command:
+ Go to Micropython-for-NUCLEO-F429ZI using the following command:
  
-      $ cd Micropython-for-NUCLEO-F429ZI/ports/stm32
+      $ cd Micropython-for-NUCLEO-F429ZI
       
- The stm32 directory contains the makefile for the NUCLEO_F429ZI board.You can build the firmware for this board using the following     command:
+ The stm32 directory contains the makefile for the NUCLEO_F429ZI board.You can build the firmware for this board using the following commands:
  
-      $ make BOARD=NUCLEO_F429ZI 
+     $ make -C mpy-cross
+     $ make -C ports/stm32 MICROPY_HW_ENABLE_ETH_RMII=1 BOARD=NUCLEO_F429ZI 
       
  When the build finishes with no errors then we have the firmware ready to be uploaded to the board.
  
@@ -63,6 +64,10 @@ To make sure everything is going well list usb connected devices using this comm
       $ lsusb
 
 You should find a device called "STMicroelectronics STM Device in DFU Mode"
+
+Go to Micropython-for-NUCLEO-F429ZI/ports/stm32 using the following command:
+ 
+      $ cd Micropython-for-NUCLEO-F429ZI/ports/stm32
 
 Now that the board is connected, you can upload the firmware using this command:
 
