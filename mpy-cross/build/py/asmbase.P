@@ -1,0 +1,28 @@
+build/py/asmbase.o: ../py/asmbase.c /usr/include/stdc-predef.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h ../py/obj.h \
+ ../py/mpconfig.h mpconfigport.h /usr/include/alloca.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h ../py/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h ../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../py/mpprint.h ../py/runtime0.h \
+ ../py/asmbase.h
+../py/asmbase.c /usr/include/stdc-predef.h :
+ /usr/include/assert.h /usr/include/features.h :
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h :
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h :
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h :
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/string.h :
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h /usr/include/xlocale.h :
+ /usr/include/x86_64-linux-gnu/bits/string3.h ../py/obj.h :
+ ../py/mpconfig.h mpconfigport.h /usr/include/alloca.h :
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h :
+ /usr/include/x86_64-linux-gnu/bits/wchar.h ../py/misc.h :
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h ../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../py/mpprint.h ../py/runtime0.h :
+ ../py/asmbase.h :
