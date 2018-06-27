@@ -67,7 +67,7 @@ You should find a device called "STMicroelectronics STM Device in DFU Mode"
 
 Go to Micropython-for-NUCLEO-F429ZI/ports/stm32 using the following command:
  
-      $ cd Micropython-for-NUCLEO-F429ZI/ports/stm32
+      $ cd ports/stm32
 
 Now that the board is connected, you can upload the firmware using this command:
 
