@@ -39,7 +39,7 @@ This is a guide showing how to port Micropython on the Nucleo-F429ZI and run you
  
  Download a copy of the micropython repository to your computer using the following command:
  
-      $ git clone --recursive https://github.com/ziadelmolla/Micropython-for-NUCLEO-F429ZI.git
+      $ git clone https://github.com/ziadelmolla/Micropython-for-NUCLEO-F429ZI.git
       
  Go to Micropython-for-NUCLEO-F429ZI using the following command:
  
