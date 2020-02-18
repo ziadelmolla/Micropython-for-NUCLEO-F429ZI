@@ -79,7 +79,7 @@ Make sure to disconnect "BT0" and "VDD" when you finish.
 
 ________________________________________________________________________________________________________________________________________
 
-##Run your first code
+## Run your first code
 
 Now when you connect the port also through the User USB Port, a window should pop up containing some file.
 One of these files is called "main.py" and this where you should write your code.
